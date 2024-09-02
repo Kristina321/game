@@ -1,0 +1,167 @@
+.game-card-adult-0 {
+  background: url(../img/neong.jpg) no-repeat center center / cover;
+}
+
+.game-card-adult-1 {
+  background: url(../img/neong2.jpg) no-repeat center center / cover;
+}
+
+.game-card-adult-2 {
+  background: url(../img/neong3.jpg) no-repeat center center / cover;
+}
+
+.game-card-adult-3 {
+  background: url(../img/neong19.jpg) no-repeat center center / cover;
+}
+
+.game-card-adult-4 {
+  background: url(../img/neong5.jpg) no-repeat center center / cover;
+}
+
+.game-card-adult-5 {
+  background: url(../img/neong6.jpg) no-repeat center center / cover;
+}
+
+.game-card-adult-6 {
+  background: url(../img/neong7.jpg) no-repeat center center / cover;
+}
+
+.game-card-adult-7 {
+  background: url(../img/neong8.jpg) no-repeat center center / cover;
+}
+
+.game-card-adult-8 {
+  background: url(../img/neong9.jpg) no-repeat center center / cover;
+}
+
+.game-card-adult-9 {
+  background: url(../img/neong10.jpg) no-repeat center center / cover;
+}
+
+.game-card-adult-10 {
+  background: url(../img/neong20.jpg) no-repeat center center / cover;
+}
+
+.game-card-adult-11 {
+  background: url(../img/neong22.jpg) no-repeat center center / cover;
+}
+
+.game-card-adult-12 {
+  background: url(../img/neong12.png) no-repeat center center / cover;
+}
+
+.game-card-adult-13 {
+  background: url(../img/neong13.jpg) no-repeat center center / cover;
+}
+
+.game-card-adult-14 {
+  background: url(../img/neong14.jpg) no-repeat center center / cover;
+}
+
+.game-card-adult-15 {
+  background: url(../img/neong15.jpg) no-repeat center center / cover;
+}
+
+.game-card-adult-16 {
+  background: url(../img/neong16.jpg) no-repeat center center / cover;
+}
+
+.game-card-adult-17 {
+  background: url(../img/neong17.jpg) no-repeat center center / cover;
+}
+
+.game-card-adult-18 {
+  background: url(../img/neong18.jpg) no-repeat center center / cover;
+}
+
+
+.game-card-baby-0 {
+  background: url(../img/neon-20.jpg) no-repeat center center / cover;
+}
+
+.game-card-baby-1 {
+  background: url(../img/neon-7.jpg) no-repeat center center / cover;
+}
+
+.game-card-baby-2 {
+  background: url(../img/neon-10.jpg) no-repeat center center / cover;
+}
+
+.game-card-baby-3 {
+  background: url(../img/neon-11.jpg) no-repeat center center / cover;
+}
+
+.game-card-baby-4 {
+  background: url(../img/neon-15.jpg) no-repeat center center / cover;
+}
+
+.game-card-baby-5 {
+  background: url(../img/neon-19.jpg) no-repeat center center / cover;
+}
+
+.game-card-baby-6 {
+  background: url(../img/neon-2.jpg) no-repeat center center / cover;
+}
+
+.game-card-baby-7 {
+  background: url(../img/neon-24.jpg) no-repeat center center / cover;
+}
+
+.game-card-baby-8 {
+  background: url(../img/neon-25.jpg) no-repeat center center / cover;
+}
+
+.game-card-baby-9 {
+  background: url(../img/neon-26.jpg) no-repeat center center / cover;
+}
+
+.game-card-baby-10 {
+  background: url(../img/neon-27.jpg) no-repeat center center / cover;
+}
+
+.game-card-baby-11 {
+  background: url(../img/neon-28.jpg) no-repeat center center / cover;
+}
+
+.game-card-baby-12 {
+  background: url(../img/neon-29.jpg) no-repeat center center / cover;
+}
+
+.game-card-baby-13 {
+  background: url(../img/neon-30.jpg) no-repeat center center / cover;
+}
+
+.game-card-baby-14 {
+  background: url(../img/neon-31.jpg) no-repeat center center / cover;
+}
+
+.game-card-baby-15 {
+  background: url(../img/neon-39.jpg) no-repeat center center / cover;
+}
+
+.game-card-baby-16 {
+  background: url(../img/neon-40.jpg) no-repeat center center / cover;
+}
+
+.game-card-baby-17 {
+  background: url(../img/neon-37.jpg) no-repeat center center / cover;
+}
+
+.game-card-baby-18 {
+  background: url(../img/neon-42.jpg) no-repeat center center / cover;
+}
+
+.game-card-close {
+  background: url(../img/bg4.jpg) no-repeat center center / cover;
+}
+
+.succes {
+  font-size: 1px;
+  background: url(../img/succes.jpg) no-repeat center center / cover;
+  pointer-events: none;
+  box-shadow: 0 0 7px #fff,
+    0 0 7px #fff, 0 0 7px #fff,
+    0 0 8px #39ff14, 0 0 8px #39ff14,
+    0 0 8px #39ff14, 0 0 8px #39ff14,
+    0 0 8px #39ff14;
+}

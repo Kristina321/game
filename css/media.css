@@ -1,0 +1,327 @@
+@media (min-width: 2500px) {
+  html {
+    font-size: 22px;
+  }
+
+  .game-container {
+    max-width: 3400px;
+  }
+
+  .game {
+    padding: min(5rem, 10%);
+  }
+
+  .game__title {
+    font-size: 9rem;
+  }
+
+  .game__legend {
+    font-size: 4rem;
+    line-height: 4.4rem;
+  }
+
+  .game__checkbox {
+    font-size: 2.5rem;
+  }
+
+  .game__checkbox-age {
+    font-size: 1.8rem;
+  }
+
+  .tooltip{
+    top: -65%;
+  }
+
+  .button {
+    padding: 2rem;
+    font-size: 2rem;
+    line-height: 2rem;
+  }
+
+  .game-light {
+    width: min(65vw, 95%);
+    grid-template-columns: repeat(4, 12vw);
+    grid-template-rows: repeat(3, 12vw);
+    gap: 1.5vw;
+  }
+
+  .game-medium {
+    padding: 1% 2%;
+    width: min(70vw, 95%);
+    grid-template-columns: repeat(6, 9vw);
+    grid-template-rows: repeat(4, 9vw);
+  }
+
+  .button--vin {
+    padding: 1.2vw;
+    font-size: 1.6vw;
+    line-height: 2vw;
+  }
+}
+
+@media (max-width: 1281px) {
+  .game {
+    padding: min(5rem, 10%);
+    width: min(60rem, 80%);
+  }
+
+  .game__form {
+    padding: 3.8rem;
+  }
+
+  .game-light {
+    width: min(100rem, 95%);
+    grid-template-columns: repeat(4, 13rem);
+    grid-template-rows: repeat(3, 13rem);
+    gap: 2.5rem;
+  }
+
+  .game-medium {
+    padding: 1% 5%;
+    width: 100%;
+    grid-template-columns: repeat(6, 9rem);
+    grid-template-rows: repeat(4, 9rem);
+    gap: 1.5vw;
+  }
+
+  .game-hard {
+    width: min(70vw, 95%);
+    grid-template-columns: repeat(6, 7.6rem);
+    grid-template-rows: repeat(6, 7.6rem);
+    gap: 1.3vw;
+  }
+
+  .vin-title {
+    font-size: 5rem;
+  }
+
+  .button--vin {
+    padding: 1.5rem;
+    font-size: 1.8rem;
+    line-height: 2rem;
+  }
+}
+
+@media (max-width: 1176px) {
+  .game-medium {
+    grid-template-columns: repeat(6, 7.8rem);
+    grid-template-rows: repeat(4, 7.8rem);
+  }
+
+  .game-hard {
+    width: min(60rem, 95%);
+    grid-template-columns: repeat(6, 7rem);
+    grid-template-rows: repeat(6, 7rem);
+    gap: 1.2rem;
+  }
+
+  .vin-title {
+    width: clamp(60%, 64rem, 100%);
+    font-size: 3.8rem;
+    filter: hue-rotate(311deg);
+  }
+}
+
+@media (max-width: 769px) {
+
+  .game {
+    padding: 5rem 2rem;
+    width: min(45rem, 80%);
+    backdrop-filter: initial;
+  }
+
+  .game__title {
+    font-size: 6rem;
+  }
+
+  .game__form {
+    padding: 3rem;
+  }
+
+  .game__legend {
+    margin-bottom: 3rem;
+    font-size: 2.5rem;
+    line-height: 3rem;
+  }
+
+  .button {
+    padding: 1em;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+  }
+
+  .game-light {
+    padding: 2% 5%;
+    width: 100%;
+    grid-template-columns: repeat(4, 10rem);
+    grid-template-rows: repeat(3, 10rem);
+    gap: 1.8rem;
+  }
+
+  .game-medium {
+    padding: 2% 5%;
+    grid-template-columns: repeat(6, 7rem);
+    grid-template-rows: repeat(4, 7rem);
+  }
+
+  .game-hard {
+    padding: 2% 5%;
+    width: min(50rem, 95%);
+    grid-template-columns: repeat(6, 6rem);
+    grid-template-rows: repeat(6, 6rem);
+    gap: 1.2rem;
+  }
+
+  .game-card-open {
+    font-size: 0.8rem;
+  }
+
+  .vin-title {
+    padding: 1.5vh 1.4vw;
+    width: clamp(72%, 50rem, 100%);
+    font-size: 3.2rem;
+    line-height: 4rem;
+  }
+
+  @keyframes flicker {
+
+    0%,
+    18%,
+    22%,
+    25%,
+    53%,
+    57%,
+    100% {
+      box-shadow: 0 0 7px #fff, 0 0 15px #fff,
+        0 0 15px #fff, 0 0 15px #f09,
+        0 0 6px #f09, 0 0 20px #f09,
+        0 0 21px #f09, 0 0 15px #f09;
+    }
+
+    20%,
+    24%,
+    55% {
+      box-shadow: none;
+    }
+  }
+}
+
+@media (max-width: 540px) {
+  .game-container {
+    padding: 10px;
+    gap: 2.8rem;
+  }
+
+  .game {
+    padding: 15% 0 40%;
+    width: min(37rem, 96%);
+  }
+
+  .game__title {
+    font-size: 5.8rem;
+  }
+
+  .game__form {
+    padding: 2.5rem;
+  }
+
+  .game-light {
+    grid-template-columns: repeat(3, 9rem);
+    grid-template-rows: repeat(4, 9rem);
+  }
+
+  .game-medium {
+    grid-template-columns: repeat(4, 6.4rem);
+    grid-template-rows: repeat(6, 6.4rem);
+    gap: 1.6rem;
+  }
+
+  .game-hard {
+    width: 100%;
+    grid-template-columns: repeat(4, 5.8rem);
+    grid-template-rows: repeat(9, 5.8rem);
+    gap: 1.2rem;
+  }
+
+  .game-hard--vin {
+    grid-template-columns: repeat(4, 4.8rem);
+    grid-template-rows: repeat(9, 4.8rem);
+    gap: 1rem;
+  }
+
+  .vin-title {
+    width: clamp(70%, 34rem, 100%);
+    font-size: 2rem;
+    line-height: 2rem;
+  }
+}
+
+@media (max-width: 381px) {
+  .game {
+    width: min(31rem, 96%);
+  }
+
+  .game__title {
+    font-size: 4.8rem;
+  }
+
+
+  .game__legend {
+    margin-bottom: 1.5rem;
+    font-size: 1.8rem;
+    line-height: 2.2rem;
+  }
+
+  .game__checkbox {
+    font-size: 1.6rem;
+    line-height: 2rem;
+  }
+
+  .game__checkbox-check {
+    min-width: 1rem;
+    min-height: 1rem;
+  }
+
+  .game__checkbox-age {
+    font-size: 1.2rem;
+  }
+
+  .game__checkbox-age .game__checkbox-check {
+    min-width: 1rem;
+    min-height: 1rem;
+  }
+
+  .button {
+    padding: 0.8em;
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+  }
+
+  .game-light {
+    padding: 3% 5%;
+    grid-template-columns: repeat(3, 7rem);
+    grid-template-rows: repeat(4, 7rem);
+  }
+
+  .game-medium {
+    grid-template-columns: repeat(4, 5.5rem);
+    grid-template-rows: repeat(6, 5.5rem);
+    gap: 1.2rem;
+  }
+
+  .game-hard {
+    padding: 3% 5%;
+    width: 100%;
+    grid-template-columns: repeat(4, 5rem);
+    grid-template-rows: repeat(9, 5rem);
+  }
+
+  .vin-title {
+    font-size: 1.9rem;
+    width: clamp(80%, 30rem, 100%);
+  }
+
+  .button--vin {
+    font-size: 1.4rem;
+  }
+}
